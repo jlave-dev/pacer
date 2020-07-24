@@ -1,0 +1,36 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "eslint:all",
+    "plugin:react/all",
+    "plugin:react-hooks/recommended",
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "overrides": [
+    {
+      "files": ["**/*.test.js"],
+      "env": {
+        "jest": true
+      }
+    }
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-max-props-per-line": [1, { "when": "multiline" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/label-has-associated-control": "off"
+  }
+}
