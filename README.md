@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://raw.githubusercontent.com/jlave-dev/pacer/2a74c4d56be5dac17cc83da6432a7f6095f67486/public/favicon.svg" alt="Pacer logo"></a>
 </p>
 
 <h3 align="center">Pacer</h3>
